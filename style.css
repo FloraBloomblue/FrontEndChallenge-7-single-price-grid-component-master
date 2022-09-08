@@ -107,7 +107,6 @@ span{
         min-width: 560px;
         display: grid;
         grid-template-rows: auto auto; 
-        margin:1rem;
     }
     .max-screen{
         display: grid;
