@@ -5,6 +5,10 @@
 }
 body{
     background-color: rgb(224, 239, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .container{
     min-width: 100vw;
@@ -13,7 +17,7 @@ body{
     grid-template-rows: 3;
     justify-content: center;
     align-items: center;
-    margin: 30px 0 30px 0;
+    margin:1rem;
     
 }
 .first{
@@ -103,7 +107,7 @@ span{
         min-width: 560px;
         display: grid;
         grid-template-rows: auto auto; 
-        margin-top:100px;
+        margin-top:1rem;
     }
     .max-screen{
         display: grid;
